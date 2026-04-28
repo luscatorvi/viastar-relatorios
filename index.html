@@ -310,7 +310,12 @@
 // ── Credenciais dos vendedores ────────────────────────────────────────────────
 // Formato: "NOME_EXATO_DO_CSV": { senha: "senha123", display: "Nome Exibido" }
 // O script Python atualiza esse objeto automaticamente via publishe_site()
-const VENDEDORES = VENDEDORES_JSON_PLACEHOLDER;
+const VENDEDORES = {
+  "EDGARD INTSP": {
+    "senha": "9551.0",
+    "display": "Edgard Intsp"
+  }
+};
 
 // ── Repositório dos PDFs ──────────────────────────────────────────────────────
 const REPO_BASE = "https://raw.githubusercontent.com/luscatorvi/viastar-relatorios/main/relatorios";
